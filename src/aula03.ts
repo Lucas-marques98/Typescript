@@ -1,9 +1,8 @@
-
 //trabalhando com class e usando o constructor
 class Curso{
   canal=null
   curso=null
-constructor(canal,curso){
+constructor(canal:any,curso:any){
   this.canal=canal;
   this.curso=curso;
 }
